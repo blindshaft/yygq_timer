@@ -53,8 +53,8 @@
 
 <script>
   function timer() {
-    var start = new Date(14, 9, 10); // 2015.7.2
-    var t = new Date().getTime() - start.getTime;
+    var start = new Date(year=2014,month=9, day=10); // 2015.7.2
+    var t = new Date()- start;
     var h = ~~(t / 1000 / 60 / 60 % 24);
     if (h < 10) {
       h = "0" + h;
